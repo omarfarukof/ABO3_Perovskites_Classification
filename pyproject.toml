@@ -14,9 +14,13 @@ dependencies = [
     "ipykernel>=6.29.5",
     "openpyxl>=3.1.5",
     "scikit-learn>=1.5.2",
+    "marimo>=0.13.6",
+    "lightgbm>=4.6.0",
+    "shap>=0.47.2",
+    "imbalanced-learn>=0.13.0",
 ]
 readme = "README.md"
-requires-python = ">= 3.8"
+requires-python = ">= 3.10"
 
 [build-system]
 requires = ["hatchling"]
